@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+git clone https://github.com/HelloZeroNet/ZeroNet.git
+
+echo "enabling ui password"
+
+mv ./ZeroNet/plugins/disabled-UiPassword ./ZeroNet/plugins/UiPassword
+
+echo "Installed ZeroNet successfully"
