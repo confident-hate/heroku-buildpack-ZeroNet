@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-echo "ZeroNet Private Proxy Service"
+echo "--- {}"
 exit 0
