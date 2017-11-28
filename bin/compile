@@ -13,6 +13,6 @@ echo "enabling ui password"
 
 mv ./ZeroNet/plugins/disabled-UiPassword ./ZeroNet/plugins/UiPassword
 
-cp -r $CACHE_DIR/ZeroNet ${BUILD_DIR}
+cp -r ./ZeroNet ${BUILD_DIR}
 
 echo "Installed ZeroNet successfully"
