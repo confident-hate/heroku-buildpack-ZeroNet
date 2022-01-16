@@ -9,6 +9,8 @@ mkdir -p $CACHE_DIR
 
 git clone https://github.com/zeronet-conservancy/zeronet-conservancy.git
 
+wait
+
 echo "enabling ui password"
 
 mv ./ZeroNet/plugins/disabled-UiPassword ./ZeroNet/plugins/UiPassword
