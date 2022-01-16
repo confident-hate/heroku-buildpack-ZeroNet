@@ -13,8 +13,8 @@ wait
 
 echo "enabling ui password"
 
-mv ./ZeroNet/plugins/disabled-UiPassword ./ZeroNet/plugins/UiPassword
+mv ./zeronet-conservancy/plugins/disabled-UiPassword ./zeronet-conservancy/plugins/UiPassword
 
-cp -r ./ZeroNet ${BUILD_DIR}
+cp -r ./zeronet-conservancy ${BUILD_DIR}
 
 echo "Installed ZeroNet successfully"
